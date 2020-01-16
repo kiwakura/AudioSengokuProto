@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace TurnBase01_Iwakura {
+
 //public class Shooter : MonoBehaviour
 public class Shooter : UnitBase
 {
@@ -17,4 +19,6 @@ public class Shooter : UnitBase
         base.Update();
     }
     
+}
+
 }

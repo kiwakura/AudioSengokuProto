@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+namespace TurnBase01_Iwakura {
+
 public class PanelCtrl : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -20,5 +22,15 @@ public class PanelCtrl : MonoBehaviour
     {
         GetComponent<Image>().enabled = !GetComponent<Image>().enabled;
     }
+    public void On()
+    {
+        GetComponent<Image>().enabled = true;
+    }
+    public void Off()
+    {
+        GetComponent<Image>().enabled = false;
+    }
+
+}
 
 }

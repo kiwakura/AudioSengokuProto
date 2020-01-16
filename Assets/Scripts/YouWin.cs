@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+namespace TurnBase01_Iwakura {
+
 public class YouWin : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -16,7 +18,10 @@ public class YouWin : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            SoundManager.Instance.PlaySe("decision4");
             SceneManager.LoadScene("Main");
         }
     }
+}
+
 }

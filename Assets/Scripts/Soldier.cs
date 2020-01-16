@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace TurnBase01_Iwakura {
+
 //public class Soldier : MonoBehaviour
 public class Soldier : UnitBase
 {
@@ -17,5 +19,7 @@ public class Soldier : UnitBase
         base.Update();
     }
     
+
+}
 
 }

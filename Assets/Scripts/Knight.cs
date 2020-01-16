@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace TurnBase01_Iwakura {
+
 //public class Knight : MonoBehaviour
 public class Knight : UnitBase
 {
@@ -28,4 +30,6 @@ public class Knight : UnitBase
         }
     }
 #endif
+}
+
 }
